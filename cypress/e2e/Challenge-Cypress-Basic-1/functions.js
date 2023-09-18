@@ -1,7 +1,7 @@
 import * as selectors from "./components";
 
 export const registerStudent = () => {
-  cy.visit("automation-practice-form");
+  cy.visit("text-box");
   cy.get(selectors.txtName).type(selectors.name);
   cy.get(selectors.txtEmail).type(selectors.email);
   cy.get(selectors.txtCurrentAddress).type(selectors.currentAddress);
