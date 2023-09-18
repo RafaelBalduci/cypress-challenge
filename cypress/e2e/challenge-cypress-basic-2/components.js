@@ -1,0 +1,27 @@
+export const demoqa = "https://demoqa.com/automation-practice-form";
+export const txtFirstName = "#firstName";
+export const txtLastName = "#firstName";
+export const txtEmail = "#userEmail";
+export const btnMale = "#genterWrapper > .col-md-9 > :nth-child(1)";
+export const btnFemale = "#genterWrapper > .col-md-9 > :nth-child(2)";
+export const btnOther = "#genterWrapper > .col-md-9 > :nth-child(3)";
+export const txtNumber = "#userNumber";
+export const txtDate = "cy.get('#dateOfBirthInput";
+export const txtSubjects = ".subjects-auto-complete__value-container";
+export const btnSports = "#hobbiesWrapper > .col-md-9 > :nth-child(1)";
+export const btnReading = "#hobbiesWrapper > .col-md-9 > :nth-child(2)";
+export const btnMusic = "#hobbiesWrapper > .col-md-9 > :nth-child(3)";
+export const btnPicture = "#uploadPicture";
+export const jpegPicture =
+  "C:/cypress-challenge/cypress/downloads/WhatsApp Image 2022-08-01 at 10.09.04 (1).jpeg";
+export const txtCurrentAddress = "#currentAddress";
+export const txtPermanentAddress = "#permanentAddress";
+export const btnSubmit = "#submit";
+export const chkName = "#name";
+export const chkEmail = "#email";
+export const chkCurrentAddress = ".border > #currentAddress";
+export const chkPermanentAddress = ".border > #permanentAddress";
+export const name = "Teste Rafael";
+export const email = "email@teste.com";
+export const currentAddress = "El Teste, España";
+export const permanentAddress = "The Test, UK";
