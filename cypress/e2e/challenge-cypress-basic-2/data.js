@@ -1,0 +1,10 @@
+export const firstName = "Teste";
+export const lastName = "Rafael";
+export const mail = "email@teste.com";
+export const number = "4417458296";
+export const subjectsMaths = "Maths";
+export const subjectsEngish = "English";
+export const subjectsChemistry = "Chemistry";
+export const currentAddress = "El Teste, España";
+export const state = "NCR";
+export const city = "Delhi";

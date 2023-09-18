@@ -8,7 +8,3 @@ export const chkName = "#name";
 export const chkEmail = "#email";
 export const chkCurrentAddress = ".border > #currentAddress";
 export const chkPermanentAddress = ".border > #permanentAddress";
-export const name = "Teste Rafael";
-export const email = "email@teste.com";
-export const currentAddress = "El Teste, España";
-export const permanentAddress = "The Test, UK";

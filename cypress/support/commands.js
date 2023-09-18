@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("adBloker", () => {
+  cy.get("#adplus-anchor").invoke("hide");
+  cy.get("footer").invoke("hide");
+  cy.get(
+    '[style="text-align:center;display:block;max-width:970px;height:auto;overflow:hidden;margin:auto"] > :nth-child(1)'
+  ).invoke("hide");
+  cy.get(
+    '[style="text-align:center;display:block;max-width:970px;height:auto;overflow:hidden;margin:auto"] > :nth-child(4)'
+  ).invoke("hide");
+});
