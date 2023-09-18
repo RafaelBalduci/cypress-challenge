@@ -9,13 +9,7 @@ export const registerStudent = () => {
   cy.get(selectors.radioButtonMale).click();
   cy.get(selectors.inputNumber).type(data.number);
   cy.get(selectors.inputDate).click();
-  cy.get(selectors.inputDateSelect)
-    .click()
-    .then(() => {
-      cy.get(selectors.inputDate)
-        .invoke("attr", "value")
-        .then((element) => {});
-    });
+  cy.get(selectors.inputDateSelect).click();
   cy.get(selectors.inputSubjects).type(data.subjectsMaths + "{enter}");
   cy.get(selectors.inputSubjects).type(data.subjectsChemistry + "{enter}");
   cy.get(selectors.inputSubjects).type(data.subjectsEngish + "{enter}");
