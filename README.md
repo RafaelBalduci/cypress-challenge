@@ -1,7 +1,7 @@
 # cypress-challenge
 
-##Challenge 1 - Writing Your First Automated Test!
-###Phase 1
+## Challenge 1 - Writing Your First Automated Test!
+### Phase 1
 
 Imagine that you are working in a team that is developing a new application for a school. Your task this sprint is to develop an E2E test to verify that it is possible to register a new student.
 The steps you must follow are:
@@ -14,7 +14,7 @@ For this first part, you don’t need to check if the student was registered suc
 
 Website: [DEMOQA](https://demoqa.com/text-box)
 
-###Phase 2
+### Phase 2
 
 Now we are going to make sure the new student was registered correctly.
 
